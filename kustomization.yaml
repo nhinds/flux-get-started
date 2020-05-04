@@ -9,6 +9,7 @@ commonLabels:
 # ... so list all the files here. Yay duplication.
 resources:
 - releases/ghost.yaml
+- releases/mongodb.yaml
 - releases/redis-auth.yaml
 - releases/redis.yaml
 - workloads/podinfo-dep.yaml
