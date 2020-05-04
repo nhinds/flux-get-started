@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
-  namespace: fluxapp
+  namespace: autoapply
   labels:
     app: podinfo
   annotations:

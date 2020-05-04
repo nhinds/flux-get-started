@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: redis
-  namespace: fluxapp
+  namespace: autoapply
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.chart-image: semver:~5.0
